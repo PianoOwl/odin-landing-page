@@ -15,6 +15,7 @@ ul {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -65,11 +66,12 @@ h2 {
 
 .sign-up {
     width: fit-content;
-    background-color: rgb(15, 154, 240);
+    background-color: #3882f6;
     color: #ffffff;
     border-radius: 5px;
     border: 0px;
-    padding: 5px;
+    padding: 5px 15px;
+    font-weight: 500;
 }
 
 .description p {
@@ -147,4 +149,83 @@ img {
     border-style: solid;
     border-color: maroon;
     border-radius: 10%;
+}
+
+.quote h2 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gordon {
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+    padding: 40px 70px;
+    background-color: #3882f6;
+    width: 600px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.sign-up-two {
+    border: #ffffff;
+    width: fit-content;
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    padding: 5px 15px;
+    font-weight: 500;
+    height: 26px;
+}
+
+.register-box {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-to-action h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.register div {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: maroon;
+    color: #ffffff;
+    padding: 20px 0px;
 }
