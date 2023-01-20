@@ -108,9 +108,43 @@ h2 {
     display: flex;
     flex-basis: auto;
     flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 70px;
 }
 
 .doneness {
     font-size: 36px;
     font-weight: bold;
+}
+
+.info-images img {
+    height: auto;
+    width: 300px;
+}
+
+.info-images div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.rare,
+.medium-rare,
+.medium-well,
+.well-done {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-image {
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10%;
+}
+
+img {
+    border-style: solid;
+    border-color: maroon;
+    border-radius: 10%;
 }
